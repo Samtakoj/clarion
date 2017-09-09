@@ -1,0 +1,4 @@
+# Routes
+
+GET     /assets/*file           controllers.Assets.at(file)
+GET     /versionedAssets/*file  controllers.Assets.versioned(file)
